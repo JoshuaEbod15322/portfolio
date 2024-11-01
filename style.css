@@ -1,7 +1,9 @@
 body {
     scroll-behavior: smooth;
     height: 100vh;
-    padding-top: 56px; 
+}
+section {
+    height: 80vh;
 }
 html {
     scroll-behavior: smooth;
@@ -17,14 +19,16 @@ html::-webkit-scrollbar {
 .nav-item {
     margin-right: 15px;
 }
+
 .house {
     height: 100vh;
 }
-section .fas,
-section .fab {
-  color: #000000;
-  font-size: 35px;
+
+section .fas, section .fab, section .fa-solid {
+    color: #000000;
+    font-size: 35px;
 }
+  
 .custom-col {
     margin-top: 25%;
-  }
+}
